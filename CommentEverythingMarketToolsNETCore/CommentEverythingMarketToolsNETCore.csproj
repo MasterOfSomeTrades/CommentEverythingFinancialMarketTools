@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <Authors>Comment Everything</Authors>
+    <Company>Comment Everything</Company>
+    <Product>CommentEverythingMarketTools .NET Core Library</Product>
+    <Description>Library of financial market-related functions for coding in .NET Core.</Description>
+    <Copyright>2018</Copyright>
+    <RepositoryUrl>https://github.com/MasterOfSomeTrades/CommentEverythingFinancialMarketTools.git</RepositoryUrl>
+    <RepositoryType>Github</RepositoryType>
+    <PackageTags>Finance Stock Market NETCore Library</PackageTags>
+    <PackageReleaseNotes>Initial library including Clock and OptionSymbolConversion classes.</PackageReleaseNotes>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommentEverythingMarketToolsNETCore", "CommentEverythingMarketToolsNETCore\CommentEverythingMarketToolsNETCore.csproj", "{D6DAA3CB-315E-46D3-8A17-EE41C1572BB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6DAA3CB-315E-46D3-8A17-EE41C1572BB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6DAA3CB-315E-46D3-8A17-EE41C1572BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6DAA3CB-315E-46D3-8A17-EE41C1572BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6DAA3CB-315E-46D3-8A17-EE41C1572BB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {916C1DB6-C724-4A84-AA8F-DBC14D7405CC}
+	EndGlobalSection
+EndGlobal
