@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CommentEverythingMarketToolsNETCore
 {
-    static class OptionSymbolConversion {
+    public static class OptionSymbolConversion {
         public enum OptionType {
             PUT,
             CALL

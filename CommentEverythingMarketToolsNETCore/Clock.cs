@@ -1,7 +1,7 @@
 ﻿using System;
 
 namespace CommentEverythingMarketToolsNETCore {
-    static class Clock {
+    public static class Clock {
         public static bool IsNowInTimeRange(int startHour, int startMinute, int startSecond, int endHour, int endMinute, int endSecond) {
             bool ret = false;
 

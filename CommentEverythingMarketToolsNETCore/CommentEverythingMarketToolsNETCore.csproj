@@ -10,8 +10,8 @@
     <RepositoryUrl>https://github.com/MasterOfSomeTrades/CommentEverythingFinancialMarketToolsNETCore.git</RepositoryUrl>
     <RepositoryType>Github</RepositoryType>
     <PackageTags>Finance Stock Market NETCore Library</PackageTags>
-    <PackageReleaseNotes>Update Github repo URL.</PackageReleaseNotes>
-    <Version>1.0.1</Version>
+    <PackageReleaseNotes>Fix class visibility.</PackageReleaseNotes>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
 </Project>
