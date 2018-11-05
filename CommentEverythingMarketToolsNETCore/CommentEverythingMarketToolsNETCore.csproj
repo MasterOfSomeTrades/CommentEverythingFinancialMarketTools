@@ -7,10 +7,11 @@
     <Product>CommentEverythingMarketTools .NET Core Library</Product>
     <Description>Library of financial market-related functions for coding in .NET Core.</Description>
     <Copyright>2018</Copyright>
-    <RepositoryUrl>https://github.com/MasterOfSomeTrades/CommentEverythingFinancialMarketTools.git</RepositoryUrl>
+    <RepositoryUrl>https://github.com/MasterOfSomeTrades/CommentEverythingFinancialMarketToolsNETCore.git</RepositoryUrl>
     <RepositoryType>Github</RepositoryType>
     <PackageTags>Finance Stock Market NETCore Library</PackageTags>
-    <PackageReleaseNotes>Initial library including Clock and OptionSymbolConversion classes.</PackageReleaseNotes>
+    <PackageReleaseNotes>Update Github repo URL.</PackageReleaseNotes>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
 </Project>
