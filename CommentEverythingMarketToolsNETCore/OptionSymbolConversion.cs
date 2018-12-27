@@ -29,6 +29,24 @@ namespace CommentEverythingMarketToolsNETCore
             return cboeOptionString.Substring(0, cboeOptionString.Length - 15);
         }
 
+        public static double GetStrikePriceFromCBOEOption(string cboeOptionString) {
+            return double.Parse(cboeOptionString.Substring(cboeOptionString.Length - 8, 8))/1000;
+        }
+
+        public static double GetUnixTimeExpiryFromCBOEOption(string cboeOptionString) {
+            return ConvertCBOEExpiryStringToUnixTime(cboeOptionString.Substring(cboeOptionString.Length - 15, 6));
+        }
+
+        public static OptionType GetOptionTypeFromCBOEOption(string cboeOptionString) {
+            OptionType ret = OptionType.CALL;
+            string optionTypeString = cboeOptionString.Substring(cboeOptionString.Length - 9, 1);
+            if (optionTypeString.Equals("P", StringComparison.InvariantCultureIgnoreCase)) {
+                ret = OptionType.PUT;
+            }
+
+            return ret;
+        }
+
         public static string GetFriendlyCBOEOptionString(string cboeOptionString) {
             string underlyingSymbol = GetUnderlyingSymbolFromCBOEOption(cboeOptionString);
             double expiryInUnixTime = ConvertCBOEExpiryStringToUnixTime(cboeOptionString.Substring(underlyingSymbol.Length, 6));

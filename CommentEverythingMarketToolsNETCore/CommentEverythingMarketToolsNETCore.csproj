@@ -5,13 +5,15 @@
     <Authors>Comment Everything</Authors>
     <Company>Comment Everything</Company>
     <Product>CommentEverythingMarketTools .NET Core Library</Product>
-    <Description>Library of financial market-related functions for coding in .NET Core.</Description>
+    <Description>Added functionality to extract data from a CBOE option string.</Description>
     <Copyright>2018</Copyright>
     <RepositoryUrl>https://github.com/MasterOfSomeTrades/CommentEverythingFinancialMarketToolsNETCore.git</RepositoryUrl>
     <RepositoryType>Github</RepositoryType>
     <PackageTags>Finance Stock Market NETCore Library</PackageTags>
     <PackageReleaseNotes>Fix class visibility.</PackageReleaseNotes>
-    <Version>1.0.2</Version>
+    <Version>1.1.0</Version>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <FileVersion>1.1.0.0</FileVersion>
   </PropertyGroup>
 
 </Project>
